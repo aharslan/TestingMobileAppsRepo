@@ -1,0 +1,75 @@
+<!DOCTYPE html> 
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head>
+ 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Emergency Contact List</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#policePage">Police</a></li>
+            <li><a href="#firePage">Fire</a></li>
+			<li><a href="#ambulancePage">Ambulance</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer">
+		<h4>ITP 2015 All Rights Reserved</h4>
+	</div>
+</div>
+
+
+<div data-role="page" id="policePage">
+	<div data-role="header">
+     <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+    
+		<h1>Police</h1>
+	</div>
+	<div data-role="content">	
+		Number 15		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="firePage">
+	<div data-role="header">
+      <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+		<h1>Fire Department</h1>
+	</div>
+	<div data-role="content">	
+		Number 0900		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="ambulancePage">
+	<div data-role="header">
+      <a href="#page" class="ui-btn ui-icon-home ui-btn-icon-left">Home</a>
+		<h1>Ambulance Department</h1>
+	</div>
+	<div data-role="content">	
+		Number 008		
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+</body>
+
+</html>
