@@ -17,7 +17,7 @@
 
 		<!--Main Page-->
 <div data-role="page" id="mainPage">
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 		<h1>FAST Insider</h1>
 		<a href="#myPanel" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-bars ui-btn-icon-notext">Bars Icon</a>
 		
@@ -48,7 +48,7 @@
 		
 		<!--Admissions Page-->
 <div data-role="page" id="admissionsPage">
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
 		<h1>Admissions</h1>
 	</div>
@@ -463,7 +463,7 @@ Fee is 		payable in full before the start of semester. It is subject to revision
 
 		<!--Campuses Page-->
 <div data-role="page" id="campusPage">
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
 		<h1>Campuses</h1>
 	</div>
@@ -485,7 +485,7 @@ Fee is 		payable in full before the start of semester. It is subject to revision
 	
 	
 		<div data-role="page" id="islPage">
-			<div data-role="header">
+			<div data-role="header" data-position="fixed">
 			<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
 			<a href="#campusPage" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-back ui-btn-icon-notext">Back</a>
 				<h1>Islamabad Campus</h1>
@@ -510,8 +510,8 @@ Fee is 		payable in full before the start of semester. It is subject to revision
 			</div>
 	    </div>
 
-<div data-role="page" id="kchPage">
-			<div data-role="header">
+		<div data-role="page" id="kchPage">
+			<div data-role="header" data-position="fixed">
 			<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
 			<a href="#campusPage" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-back ui-btn-icon-notext">Back</a>
 				<h1>Karachi Campus</h1>
@@ -542,46 +542,86 @@ Fee is 		payable in full before the start of semester. It is subject to revision
 	    </div>
 
 
-<div data-role="page" id="lhrPage">
-	<div data-role="header">
-	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
-		<h1>Departments</h1>
-	</div>
-	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<h4>Copyright © 2000 - 2015 , NUCES. 
-		<br>All Rights Reserved.</h4>
-	</div>
-</div>
-<div data-role="page" id="pwrPage">
-	<div data-role="header">
-	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
-		<h1>Departments</h1>
-	</div>
-	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<h4>Copyright © 2000 - 2015 , NUCES. 
-		<br>All Rights Reserved.</h4>
-	</div>
-</div>
+		<div data-role="page" id="lhrPage">
+			<div data-role="header" data-position="fixed">
+			<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
+			<a href="#campusPage" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-back ui-btn-icon-notext">Back</a>
+				<h1>Lahore Campus</h1>
+			</div>
+			<p>
+			The Lahore Campus, spread over 12.5 acres, is located in Faisal Town which is the heart of greater Lahore. The campus consists of three blocks, which with their striking exterior brickwork and magnificent marble domes are a valuable addition to the rich architectural heritage of Lahore. The facilities consist of fully air-conditioned purpose built class rooms equipped with teaching aids, and a number of computing and engineering laboratories.
+			The computing labs consist of database, programming, software engineering, and computer application labs. Latest computers, workstations and services having LINUX and Windows based environments are also readily available for the usage of students. The whole campus is fully equipped with fast Local Area Network and latest wireless hotspots.
+			</p>
+			<h2>Contact Information</h2>
+			Block-B, Faisal Town,<br>
+			Lahore.<br>
+			Tel: (042) 111 128 128<br>
+			Fax: (042)516 5232<br>
+			
+			<div data-role="content">	
+					<a href="geo:31.481093,74.303388?q=National+University+of+Computer+and+Emerging+Sciences"><img src="maps/lahore.png" alt="image" height="100%" width="100%"/></a> click to see map
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>Copyright © 2000 - 2015 , NUCES. 
+				<br>All Rights Reserved.</h4>
+			</div>
+	    </div>
 
-<div data-role="page" id="cfPage">
-	<div data-role="header">
-	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
-		<h1>Departments</h1>
-	</div>
-	<div data-role="content">	
-		Content		
-	</div>
-	<div data-role="footer" data-position="fixed">
-		<h4>Copyright © 2000 - 2015 , NUCES. 
-		<br>All Rights Reserved.</h4>
-	</div>
-</div>
+		<div data-role="page" id="pwrPage">
+			<div data-role="header" data-position="fixed">
+			<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
+			<a href="#campusPage" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-back ui-btn-icon-notext">Back</a>
+				<h1>Lahore Campus</h1>
+			</div>
+			<p>
+			The Peshawar campus was established in 2001. It is housed in an impressive building, which has an architectural design similar to that of the Lahore and Karachi campuses. The green, well maintained lawns that surround the building add to the scenic beauty of the whole setup. The Campus covers an area of 4 acres and is located in the Industrial Estate, Hayatabad. The satellite town of Hayatabad flanks it, which is an ideal place for students to find residence in privately run hostels. The historic Khyber Pass is within an hours drive from the Campus.
+			The Campus has all the physical facilities that a modern educational institution should have. It has an excellent Intranet facility with a site for the students to inform them about their class attendance, grades and other academic information. The campus has fully air-conditioned, multi-media installed classrooms and lecture theatres, a hall, a library and Computer/ Engineering laboratories that have latest equipment. The library has a collection of over 6,000 books and subscribes to 35 journals, magazines and newspapers. It has computers for students to do online searches for study materials. It also has the distinction of being one of the first libraries in the province to be computerized.
+			</p>
+			<h2>Contact Information</h2>
+			160 Industrial Estate,<br>
+			Jamrud Road,<br>
+			Peshawar.<br>
+			Tel: (091) 111 128 128<br>
+			Fax: (091) 582 2320<br>
+			
+			<div data-role="content">	
+					<a href="geo:33.9833519,71.4003824?q=Fast+University+Peshawar+Campus"><img src="maps/peshawar.png" alt="image" height="100%" width="100%"/></a> click to see map
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>Copyright © 2000 - 2015 , NUCES. 
+				<br>All Rights Reserved.</h4>
+			</div>
+	    </div>
+
+		<div data-role="page" id="cfPage">
+			<div data-role="header" data-position="fixed">
+			<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
+			<a href="#campusPage" class="ui-btn ui-alt-icon ui-btn-right ui-corner-all ui-icon-back ui-btn-icon-notext">Back</a>
+				<h1>Chaniot/Faisalabad Campus</h1>
+			</div>
+				<p>
+				Situated at the junction of Pakistan’s industrial hub—Faisalabad and the historically rich city of Chiniot in suburbs of River Chenab, the Chiniot - Faisalabad campus is the 5th campus of the university. The campus symbolises the desirable connect between nature and industry and between tradition and modernity. Its picturesque surroundings in the outskirts of Pakistan’s Manchester, the home to textile industry, represent human advancement from agrarian to industrial and technological society. The campus is located on 10 acres of land on Faisalabad Chiniot Road (about 9 Km’s from Faisalabad Motorway interchange - towards Chiniot).
+				The Campus has been established to carry forward the academic traditions of excellence in professional and personal aspects of the students. The aim is follow the footsteps of the alumnae of the 4 sister campuses in Islamabad, Lahore, Karachi, and Peshawar. Graduates of all sister campuses of this university are well-received by the industry and hold prominent positions in many national and multinational corporations. A large number of university alumni are serving in prestigious institutions and organizations across the world like Microsoft, YouTube, Oracle, NCR, LMKR, IBM any many more. The physical proximity of the Campus with some of the leading industrial enterprises will go a long way in furthering the cause of professional education in the country.
+				The campus offers degree programs in Computer Science, Electrical Engineering, and Business Administration. To confer academic excellence on its graduates, the campus has scholarly, seasoned, dedicated and professionally stimulated faculty.
+				</p>
+				
+				<h2>Contact Information</h2>
+				Loonaywala Stop (9 Km from Motorway Interchange)<br>
+				Faisalabad-Chiniot Road<br>
+				Tel: (041) 111-128-128<br>
+				Fax: (041) 260 7272<br>
+			
+			<div data-role="content">	
+					<a href="geo:31.7245117,72.982006?q=National+University+of+Computer+and+Emerging+Sciences+Faisalabad-Chiniot+Campus"><img src="maps/chaniotfaisalabad.png" alt="image" height="100%" width="100%"/></a> click to see map
+			</div>
+			
+			<div data-role="footer" data-position="fixed">
+				<h4>Copyright © 2000 - 2015 , NUCES. 
+				<br>All Rights Reserved.</h4>
+			</div>
+	    </div>
 
 
 
@@ -589,7 +629,7 @@ Fee is 		payable in full before the start of semester. It is subject to revision
 
 
 <div data-role="page" id="departmentPage">
-	<div data-role="header">
+	<div data-role="header" data-position="fixed">
 	<a href="#mainPage" class="ui-btn ui-alt-icon ui-btn-left ui-corner-all ui-icon-home ui-btn-icon-notext">Home</a>
 		<h1>Departments</h1>
 	</div>
